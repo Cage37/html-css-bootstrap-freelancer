@@ -33,7 +33,7 @@
 }
 
 .bg_green{
-    background-color: #58B99D;
+    background-color: #58B99D !important;
 }
 
 .i_avatar{
@@ -55,4 +55,27 @@ i{
 
 .p_size{
     font-size: 20px;
+}
+
+.table_input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 900px;
+    height: 50px;
+}
+
+.messinput{
+    height: 200px;
+}
+
+@media screen and (max-width: 991px){
+    .table_input{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 767px){
+    .table_input{
+        width: 500px;
+    }
 }
